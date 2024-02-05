@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', 'Oxygen', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 14px 0;
+    background-color: #FFFFFF;
+    border-bottom: 2px solid rgb(237, 234, 234);
+    box-shadow: 0 2px 4px #d4d3d3;
+}
+.logo{
+    font-size: 26px;
+    font-weight: 700;
+    margin-right: 48%;
+}
+.top_right{
+    display: flex;
+}
+.icons i{
+    margin: 6px;
+    color: rgba(155, 151, 151, 0.8);
+}
+.login{
+    display: flex;
+}
+.login div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin: 2px 12px;
+}
+.login div:first-child{
+    font-size: 12px;
+    padding: 0 12px;
+    border: 1px solid grey;
+    border-radius: 25px;
+}
+.login div:nth-child(2){
+    font-size: 16px;
+    border-radius: 100%;
+    color:white;
+    background-color: orangered;
+    padding: 8px 10px;
+}
+main{
+    display: flex;
+    width: 100%;
+    padding: 90px;
+}
+.main_content{
+    width: 75%;
+}
+.side_bar{
+    width: 25%;
+    border-left: 2px solid rgb(212, 207, 207);
+    padding-left: 42px;
+}
+.main_content .top{
+    display: flex;
+    height: 30px;
+    margin: 30px 240px 0 0;
+    border-bottom: 1px solid rgb(212, 207, 207);
+}
+.top span{
+    display: flex;
+    font-size: 14px;
+    padding: 0 20px 0 6px;
+}
+.top span:last-child{
+    font-weight: bold;
+    padding-bottom: 30px;
+    border-bottom: 2px solid black;
+}
+.user{
+    display: flex;
+    padding-top: 35px;
+}
+.user p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 13px;
+}
+.grey{
+    padding: 0 2px;
+    color: grey;
+}
+.text .picture{
+    float: right;
+    margin-right: 240px;
+}
+.text h2,p{
+    white-space: pre-line;
+}
+.text p{
+    padding-top: 4px;
+}
+.text{
+    padding-top: 8px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 530px;
+}
+.footer p{
+    display: flex;
+    padding-top: 16px;
+    font-size: 13px;
+}
+.footer span{
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    padding: 2px 12px;
+    background-color: #edebeb;
+    border-radius: 12px;
+}
+.footer div{
+    display: flex;
+    padding-top: 16px;
+}
+.footer i{
+    margin: 0 6px;
+}
+.up > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.one:first-child > i{
+    font-size: 30px;
+}
+.one:nth-child(2) > i{
+    font-size: 15px;
+    color: rgb(189, 188, 188);
+    margin: 0 3px;
+}
+.one:last-child > i{
+    font-size: 20px;
+    color: #1DA1F2;
+}
+.a{
+    margin: 22px 0;
+}
+.a p{
+    text-align: center;
+}
+.at{
+    border: 2px solid rgb(176, 171, 171);
+    border-radius: 18px;
+    padding: 6px 20px;
+    font-size: 14px;
+}
+.at i{
+    font-size: 20px;
+    color: #1DA1F2;
+    padding-right: 8px;
+}
+.underline{
+    text-decoration: underline;
+    font-size: 14px;
+    color: #a8a4a4;
+}
+.up{
+    border-bottom: 2px solid rgb(212, 207, 207);
+}
+.under > div{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+.under{
+    padding: 30px 0;
+}
+.under h4{
+    padding: 15px 0;
+}
+.bag > div{
+    border: 2px solid #eeecec;
+    border-radius: 18px;
+    background-color: #f5f5f5;
+    padding: 6px 10px;
+    margin: 4px;
+    font-size: 13px;
+}
+.middle > div{
+    display: flex;
+}
+.middle h4{
+    padding: 7px 0;
+}
+.photo img{
+    border-radius: 30px;
+    padding: 8px;
+}
+.who span{
+    font-weight: 700;
+    font-size: 16px;
+}
+.who p{
+    font-size: 13px;
+    color: grey;
+}
+.who{
+    padding-left: 8px;
+}
+.account1 .who{
+    padding-right: 58px;
+}
+.account2 .who{
+    padding-bottom: 16px;
+}
+.follow{
+    font-size: 13px;
+    padding: 8px 10px;
+    border: 2px solid grey;
+    border-radius: 24px;
+    margin: 18px 0;
+}
+.down > div{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+.down h4{
+    margin: 30px 0 14px;
+    padding-left: 4px;
+}
+.level img{
+    padding: 4px;
+    border-radius: 8px;
+}
+.level p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.down h3{
+    margin: 8px 0;
+    padding-left: 4px;
+}
+.levelB{
+    font-size: 13px;
+    color: grey;
+    padding-left: 4px;
+    margin-bottom: 16px;
+}
+.levelB i{
+    padding-left: 6px;
+}
+.levelC{
+    padding-left: 4px;
+}
+.levelC img{
+    padding: 4px; /*il padding deve essere uguale su tutti e quattro i lati se no border-radius non crea un cerchio*/
+    border-radius: 50px;
+}
+.levelC span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bold{
+    font-weight: bold;
+    padding-left: 8px;
+    margin: 12px 0;
+}
+.green{
+    color: green;
+    padding-left: 4px;
+    margin-bottom: 82px;
+}
+.base .brick{
+    display: flex;
+    justify-content: start;
+    padding-left: 4px;
+    color: grey;
+    font-size: 14px;
+}
+.space{
+    padding: 0 16px 8px 0;
+}
